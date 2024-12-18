@@ -133,6 +133,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  border:none;
+  font-size: large;
+}
+
 img {
   max-width: 100%;
   height: auto;
