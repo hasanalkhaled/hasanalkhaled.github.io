@@ -1182,8 +1182,14 @@
             <i class="uil uil-phone contact__icon"></i>
 
             <div>
-              <h3 class="contact__title">Call Me</h3>
-              <span class="contact__subtitle">+88 01617077776</span>
+              <h3 class="contact__title">Call</h3>
+              <span class="contact__subtitle">
+                <script>
+                  var url = "https://wa.me/";
+                  var phone = "8801617077776";
+                  document.write('<a class="contact__subtitle" target="_blank" href="' + url + phone + '">Click to call</a>');
+                </script>
+              </span>
             </div>
           </div>
 
@@ -1192,7 +1198,13 @@
 
             <div>
               <h3 class="contact__title">Email</h3>
-              <span class="contact__subtitle">email@hasanalkhaled.com</span>
+              <span class="contact__subtitle">
+                <script>
+                  var user = "email";
+                  var domain = "hasanalkhaled.com";
+                  document.write('<a class="contact__subtitle" href="mailto:' + user + '@' + domain + '">Click to email</a>');
+                </script>
+              </span>
             </div>
           </div>
 
